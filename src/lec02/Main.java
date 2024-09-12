@@ -1,6 +1,10 @@
 package lec02;
 
-
+class newline {
+    public static void printNewLine() {
+        System.out.println();
+    }
+}
 class Square {
     public static void printSquare(int x) {
         System.out.println(x*x);
@@ -9,6 +13,30 @@ class Square {
 class Square2 {
     public static void printSquare(double x) {
         System.out.println(x * x);
+    }
+}
+class FooCoporation{
+    public static double totalPay(double BasePay, int HoursWorked){
+        double totalPay = 8.0;
+        System.out.println("The worker's BasePay: " + BasePay + " HoursWorked: " + HoursWorked);
+        if(BasePay < 8.0){
+            System.out.println("Error: Base Pay is below the minimun wage that 8$ per hour");
+            return 0.0;
+        }
+        else if (HoursWorked > 60){
+            System.out.println("Error: Hours worked exceeds 60 hours");
+            return 0.0;
+        }
+        else{
+            if(HoursWorked > 40){
+                totalPay = BasePay * 40 +(HoursWorked - 40) * BasePay * 1.5;
+            }
+            else{
+                totalPay = BasePay * HoursWorked;
+            }
+            System.out.println("The worker's total pay is: " + totalPay);
+            return totalPay;
+        }
     }
 }
 // 主类 lec02的Main程序的入口点
@@ -34,6 +62,20 @@ public class Main {
         System.out.print("this is squeare of 3.5: ");
         Square2.printSquare(3.5); // 12.25
         //Square2.printSquare(5); 会报错，因为printSquare方法的参数是double类型
+
+        System.out.println("Now we begin to finish the task of lec02");
+        FooCoporation test = new FooCoporation();
+        test.totalPay(7.5, 35); // 262.5
+        newline.printNewLine();
+        test.totalPay(8.2, 47); // 401.4
+        newline.printNewLine();
+        test.totalPay(10.0, 73); // 730.0
+        newline.printNewLine();
+        test.totalPay(9, 54); // 0.0
+
+        // 以上因为实例引用了一个类会报warning，所以需要实例化一个对象，然后调用对象的方法，如下：
+        double pay = FooCoporation.totalPay(8.2,47);//通过类名访问静态方法
+
 
     }
 }
