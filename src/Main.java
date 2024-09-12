@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         // 调用 lec01 的 Main 类
-        lec01.lec01_main.main(args);
+        //lec01.lec01_main.main(args);
 
         // 调用 lec02 的 Main 类
-        //lec02.Main.main(args);
+        lec02.Main.main(args);
 
         // 其他功能
         System.out.println("这是项目的统一入口!");
