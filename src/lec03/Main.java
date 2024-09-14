@@ -22,10 +22,8 @@ public class Main {
             values2[i] = i * i;
             str += values2[i] + " ";
         }
-        System.out.println( str);
+        System.out.println(str);
         System.out.println("The length of values2 is: " + values2.length);
-
-
         System.out.println("The length of args: " + args.length);
         /*
         System.out.println("The first element of args: " + args[0]);
@@ -44,16 +42,25 @@ public class Main {
                 343, 317, 265
         };
         String fastMan = "default";//设置一个默认值
+        String second_fastman = "default";
         int fastTime = 1000000;//设置一个很大的数
+        int second_fastTime = fastTime + 1;//设置一个比fastTime大的数
         System.out.println("The names and times of the runners are: ");
         for (int i = 0; i < names.length; i++) {
             System.out.println(names[i] + ": " + times[i]);
             if(fastTime>times[i]){
+                second_fastman = fastMan;
+                second_fastTime = fastTime;
                 fastTime = times[i];
                 fastMan = names[i];
             }
+            else if(second_fastTime>times[i]){
+                second_fastTime = times[i];
+                second_fastman = names[i];
+            }
         }
         System.out.println("The fastest man is: " + fastMan + ", the fastest time is: " + fastTime);
+        System.out.println("The second man is: " + second_fastman + ", the second time is: " + second_fastTime);
     }
 
 }
