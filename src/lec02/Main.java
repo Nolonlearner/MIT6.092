@@ -76,6 +76,14 @@ public class Main {
         // 以上因为实例引用了一个类会报warning，所以需要实例化一个对象，然后调用对象的方法，如下：
         double pay = FooCoporation.totalPay(8.2,47);//通过类名访问静态方法
 
+        /*
+        *Do NOT call == on doubles! EVER.
+        double a = Math.cos (Math.PI / 2);
+        double b = 0.0;
+        a = 6.123233995736766E-17
+        a == b will return FALSE!
+        *
+        * */
 
     }
 }
