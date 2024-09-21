@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // 调用 lec01 的 Main 类
-        //lec01.lec01_main.main(args);
+        lec01.Main.main(args);
 
         // 调用 lec02 的 Main 类
         lec02.Main.main(args);
