@@ -6,6 +6,12 @@ public class Main {
         // 调用 lec02 的 Main 类
         lec02.Main.main(args);
 
+        // 调用 lec03 的 Main 类
+        lec03.Main.main(args);
+
+        // 调用 lec04 的 Main 类
+        lec04.Main.main(args);
+
         // 其他功能
         System.out.println("这是项目的统一入口!");
     }
