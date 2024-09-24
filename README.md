@@ -1,10 +1,12 @@
-# MIT 6.092 - Introduction to Programming in Java
+# MIT 6.092 - Introduction to Programming in Java and some practice solutions in TongJi University Java course
 
 欢迎来到我的 **MIT 6.092** 学习实践项目！在此课程中，我简单学习了 Java 编程语言，并完成了对应lecture的编程任务。以下是我学习的内容和进度的详细说明。
+同时，我也会在同济大学的 **Java企业级开发设计** 课程中进行一些练习，将练习题的解答放在同一个文件夹下。
 
 ## 课程概述
 
-*MIT 6.092* 是麻省理工学院提供的一门介绍 Java 编程的入门课程，旨在帮助学生掌握编程基础、数据结构和算法。
+*MIT 6.092（主）* 是麻省理工学院提供的一门介绍 Java 编程的入门课程，旨在帮助学生掌握编程基础、数据结构和算法。
+*Java企业级开发设计（次）* 是同济大学软件学院提供的一门Java课程，介绍Java的高级特性和项目开发框架。
 
 ## 个人感受
 偏于简单，适合初学者入门。对于有编程基础的人来说会比较无聊，我本人没有java基础，简单学学还挺有意思的，希望能依次开启自己的课外学习之旅吧。
@@ -40,6 +42,19 @@
 - **项目4：简单的图书馆图书系统**
     - 利用OOP思想。
 
+- **练习1-1：基于长度和字母顺序的字符串列表排序**
+    - Implement a program, which accepts a list of strings
+      provided by the user, and outputs the sorted list of strings
+      ordered by length. For strings with the same length, they are
+      sorted by alphabetical order.
+- **练习1-2：统计字符串中的character并排序**
+    - Implement a program, which allows the user to input a string
+      (without space), and outputs the list of characters (such as
+      letters, digits, symbols) occurred in the string. The same
+      letters in lowercase and uppercase are regarded as a unique
+      one. The characters are sorted by their occurrences in the
+      string.
+
 ## 学习资源
 
 - [MIT OpenCourseWare](https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-iap-2010/pages/syllabus/): 提供**MIT6.092**完整的课程资料和讲义。
@@ -47,12 +62,13 @@
 
 ## 进度记录
 
-| 日期         | 学习内容  | 状态 |
-|------------|-------|----|
-| 2024-09-12 | lec01 | 完成 |
-| 2024-09-13 | lec02 | 完成 |
-| 2024-09-14 | lec03 | 完成 |
-| 2024-09-21 | lec04 | 完成 |
+| 日期         | 学习内容      | 状态 |
+|------------|-----------|----|
+| 2024-09-12 | lec01     | 完成 |
+| 2024-09-13 | lec02     | 完成 |
+| 2024-09-14 | lec03     | 完成 |
+| 2024-09-21 | lec04     | 完成 |
+| 2024-09-24 | practice1 | 完成 |
 
 ## 反馈
 
