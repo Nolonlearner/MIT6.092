@@ -54,6 +54,28 @@
       letters in lowercase and uppercase are regarded as a unique
       one. The characters are sorted by their occurrences in the
       string.
+- **练习2.1：**
+    - Design and implement a Point class
+       1. Fields (private): xPos, yPos
+       2. A set of constructors, including a default constructor
+       3. Getters and setters for xPos and yPos
+    - Design and implement a Circle class
+       1. Fields (private): radius, center (represented as Point)
+       2. A set of constructors, including a default constructor
+       3. Getters and setters for radius and center
+       4. getArea: compute and return the area of the circle
+       5. toString: return the information of the circle
+    - Design and implement three static methods
+       1. Circle[] generate(int amount, float maxRadius, Point upperLeft, Point lowerRight)
+       2. Circle max(Circle... circles)
+       3. void sort(Circle[] circles)
+
+- **练习2.2：实现stack和stackIterator**
+    - Implement a class named Stack, which stores int elements,
+  and provides the following methods : void push(int x), int pop(), int size(), void clear()
+    - Implement an inner class StackIterator, which supports the
+  iteration through stored values : void reset(), boolean hasNext(), int next()
+    - Experiment with the Stack and StackIterator classes in the main method
 
 ## 学习资源
 
