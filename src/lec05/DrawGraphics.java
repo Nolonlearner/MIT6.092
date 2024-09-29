@@ -1,22 +1,38 @@
 package lec05;
-
 import java.awt.Color;
 import java.awt.Graphics;
+import java.util.ArrayList;
+
 public class DrawGraphics {
-    BouncingBox box;
-    /** Initializes this class for drawing. */
+    ArrayList<BouncingBox> boxes;
+
     public DrawGraphics() {
-        box = new BouncingBox(200, 50, Color.BLACK);
+        boxes = new ArrayList<>();
+        BouncingBox box1 = new BouncingBox(50, 50, Color.RED);
+        box1.setMovementVector(1, 2);
+        BouncingBox box2 = new BouncingBox(100, 100, Color.GREEN);
+        box2.setMovementVector(2, 1);
+        BouncingBox box3 = new BouncingBox(150, 150, Color.BLUE);
+        box3.setMovementVector(1, -1);
+
+        boxes.add(box1);
+        boxes.add(box2);
+        boxes.add(box3);
     }
-    /** Draw the contents of the window on surface. Called 20 times per second. */
+
     public void draw(Graphics surface) {
+        for (BouncingBox box : boxes) {
+            box.draw(surface);
+        }
+
+        // 绘制额外的形状（例如椭圆、线条、矩形等）
+        surface.setColor(Color.BLACK);
         surface.drawLine(50, 50, 250, 250);
-        box.draw(surface);
 
-        surface.drawOval(100, 100, 50, 50);
-        box.draw(surface);
+        surface.setColor(Color.RED);
+        surface.drawRect(20, 20, 50, 50);
 
-        surface.fillRect(10, 10, 50, 50);
-        box.draw(surface);
+        surface.setColor(Color.GREEN);
+        surface.drawOval(100, 100, 60, 40);
     }
 }

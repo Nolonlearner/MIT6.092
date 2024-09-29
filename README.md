@@ -77,6 +77,8 @@
   iteration through stored values : void reset(), boolean hasNext(), int next()
     - Experiment with the Stack and StackIterator classes in the main method
 
+- **项目5：自己查阅java的API文档，做一个简单的动画演示**
+  - 洒洒水啦~ 
 ## 学习资源
 
 - [MIT OpenCourseWare](https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-iap-2010/pages/syllabus/): 提供**MIT6.092**完整的课程资料和讲义。
@@ -92,6 +94,7 @@
 | 2024-09-21 | lec&assn 04 | 完成 |
 | 2024-09-24 | practice1   | 完成 |
 | 2024-09-24 | practice2   | 完成 |
+| 2024-09-29 | lec&assn 05 | 完成 |
 
 ## 反馈
 
