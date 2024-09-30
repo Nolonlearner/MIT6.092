@@ -25,6 +25,11 @@
 - 继承和多态
 - 接口和抽象类
 
+### 3. Java高级特性
+- 良好代码设计
+- Debugging
+- 接口
+
 
 ## 项目和练习
 
@@ -79,6 +84,9 @@
 
 - **项目5：自己查阅java的API文档，做一个简单的动画演示**
   - 洒洒水啦~ 
+
+- **项目6：在项目5的基础上实现接口Mover来控制移动**
+- **项目7：在项目6的基础上实现接口Mover来控制移动**
 ## 学习资源
 
 - [MIT OpenCourseWare](https://ocw.mit.edu/courses/6-092-introduction-to-programming-in-java-january-iap-2010/pages/syllabus/): 提供**MIT6.092**完整的课程资料和讲义。
@@ -95,6 +103,7 @@
 | 2024-09-24 | practice1   | 完成 |
 | 2024-09-24 | practice2   | 完成 |
 | 2024-09-29 | lec&assn 05 | 完成 |
+| 2024-09-30 | lec&assn 06 | 完成 |
 
 ## 反馈
 
